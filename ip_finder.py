@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import socket
 
 IP = "<broadcast>"
@@ -18,3 +20,4 @@ except socket.timeout:
 finally:
 	sock.close()
 input("Press Enter to Close")
+
